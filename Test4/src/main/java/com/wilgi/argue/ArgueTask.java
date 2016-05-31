@@ -9,7 +9,7 @@ public class ArgueTask implements Runnable {
         this.opinion = opinion;
         if (times > 0)
             this.times = times;
-        else this.times = 10;
+        else this.times = 12;
     }
 
     public void run() {
