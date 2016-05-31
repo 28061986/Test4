@@ -6,8 +6,8 @@ import java.util.concurrent.Executors;
 public class Argue {
     public static void main(String[] args) {
         ExecutorService service = Executors.newFixedThreadPool(2);
-        service.submit(new ArgueTask("London is capital of Great Britain", 20));
-        service.submit(new ArgueTask("It's not true!", 21));
+        service.submit(new ArgueTask("Errr2225555", 20));
+        service.submit(new ArgueTask("New222222222", 21));
         service.shutdown();
     }
 }
