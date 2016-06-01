@@ -15,9 +15,6 @@ public class Argue {
 		service.shutdown();
 		System.out.println("From manetskiy2");
 		System.out.println("NEW From manetskiy2");
-		//comment
-		//comment
-		//comment
-		//comment
+		int x = 5;
     }
 }
