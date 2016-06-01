@@ -14,5 +14,8 @@ public class Argue {
 		//comment
 		service.shutdown();
 		System.out.println("From manetskiy2");
+		System.out.println("NEW From manetskiy2");
+		//comment
+		//comment
     }
 }
