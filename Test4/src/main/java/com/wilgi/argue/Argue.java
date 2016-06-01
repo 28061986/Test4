@@ -13,5 +13,6 @@ public class Argue {
         service.submit(new ArgueTask("New222222222", 21));
 		//comment
 		service.shutdown();
+		System.out.println("From manetskiy2");
     }
 }
