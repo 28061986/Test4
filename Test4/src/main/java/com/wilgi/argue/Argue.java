@@ -9,6 +9,9 @@ public class Argue {
 		//comment from master
         service.submit(new ArgueTask("London is capital of Great Britain", 20));
         service.submit(new ArgueTask("It's not true!!!", 20));
-        service.shutdown();
+        service.submit(new ArgueTask("Err", 20));
+        service.submit(new ArgueTask("New222222222", 21));
+		//comment
+		service.shutdown();
     }
 }
