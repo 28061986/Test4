@@ -17,5 +17,7 @@ public class Argue {
 		System.out.println("NEW From manetskiy2");
 		//comment
 		//comment
+		//comment
+		//comment
     }
 }
