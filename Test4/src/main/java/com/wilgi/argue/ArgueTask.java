@@ -9,14 +9,14 @@ public class ArgueTask implements Runnable {
         this.opinion = opinion;
         if (times > 0)
             this.times = times;
-        else this.times = 10;
+        else this.times = 12;
     }
 
     public void run() {
         for (int i = 0; i < times; i++) {
             System.out.println(opinion + " : " + (i + 1 ) + " time.");
             try {
-                Thread.currentThread().sleep(100);
+                Thread.currentThread().sleep(101);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
