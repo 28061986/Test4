@@ -16,5 +16,6 @@ public class Argue {
 		System.out.println("From manetskiy2");
 		System.out.println("NEW From manetskiy2");
 		int x = 5;
+		String s = "One";
     }
 }
